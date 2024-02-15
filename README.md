@@ -114,34 +114,5 @@ Habilitar autenticação: Selecionado
 
 39 - Em Modelos, selecionei mslearnbikeauto0, depois fui em Pontos de extremidade, selecionei predict-rentals e selecionei a aba Testar
 
-40 - Em Testar inseri as informações do JSON abaixo:
+40 - Em Testar inseri as informações do arquivo ponto-de-extremidade.json, e tive como resultado as informações do arquivo resultado.json.
 
- {
-   "Inputs": { 
-     "data": [
-       {
-         "day": 1,
-         "mnth": 1,   
-         "year": 2022,
-         "season": 2,
-         "holiday": 0,
-         "weekday": 1,
-         "workingday": 1,
-         "weathersit": 2, 
-         "temp": 0.3, 
-         "atemp": 0.3,
-         "hum": 0.3,
-         "windspeed": 0.3 
-       }
-     ]    
-   },   
-   "GlobalParameters": 1.0
- }
-
-41 O Resultado foi: 
-
-{
-  "Results": [
-    444.277099014669
-  ]
-}
